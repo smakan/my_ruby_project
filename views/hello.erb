@@ -1,0 +1,14 @@
+<!doctype html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="/css/styles.css">
+<title>Hello from Sinatra</title>
+</head>
+
+<% if @name %>
+	<h1>Hello <%= @name %>!</h1>
+<% else %>
+<h1 class='redHeader'> Hello World!</h1>
+<% end %>
+
+</html>
